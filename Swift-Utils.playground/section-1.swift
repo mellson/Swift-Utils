@@ -26,3 +26,8 @@ res
 dur
 
 
+let numberFormatter = NSNumberFormatter()
+//numberFormatter.stringFromNumber(2)
+
+let number: NSNumber? = Some("hej") as AnyObject? as NSNumber?
+numberFormatter.stringFromNumber(number!)
